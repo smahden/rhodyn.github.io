@@ -1,0 +1,17 @@
+h1, h3 {
+	color: #464946;
+	text-align: center;
+	font-family: Georgia, serif;
+}
+
+h2 {
+	color: #464946;
+	font-family: Georgia, serif;
+	font-size: 1.6em;
+}
+
+.format {
+	text-align: justify;
+	line-height: 1.4;
+	background-color: #99D5C9;
+}

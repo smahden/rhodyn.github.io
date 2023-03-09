@@ -1,0 +1,15 @@
+h1 {
+  font-family: Helvetica, Verdana, Tahoma, Sans-serif;
+  color: #000000;
+  font-size: 3em;
+  text-align: center;
+  padding: 20px;
+  border-style: dashed;
+}
+
+h2 {
+	text-align: center;
+	background-color: #9ECED1;
+	padding: 20px;
+	border-style: solid;
+}
