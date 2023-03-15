@@ -4,12 +4,79 @@ h1 {
   font-size: 3em;
   text-align: center;
   padding: 20px;
-  border-style: dashed;
 }
 
-h2 {
-	text-align: center;
-	background-color: #9ECED1;
-	padding: 20px;
-	border-style: solid;
+.style {
+	color: black;
+	font-size: 1.2em;
+	font-style: Verdana, Sans-serif;
+	text-decoration: none;
+}
+
+.button {
+  background-color: #09AEAE;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.header {
+	background-color: #565656;
+	width: 100%;
+	height: 90px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 30px;
+	font-family: Georgia, serif;
+	color: #FFFFFF
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Split the screen in half */
+.split {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #BBC8CA;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+p, h2 {
+	color: #F4EDEA;
 }
