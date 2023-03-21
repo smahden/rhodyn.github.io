@@ -27,3 +27,14 @@ ul {
 li {
   font-size: 18px;
 }
+
+a:link {
+	text-decoration: none;
+}
+
+a.home:hover, a.home:active {
+	border: solid;
+	background: black;
+	text-decoration: none;
+	color: white;
+}
