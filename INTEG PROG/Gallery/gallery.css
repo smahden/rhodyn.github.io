@@ -20,3 +20,7 @@ a.home:hover, a.home:active {
 	text-decoration: none;
 	color: white;
 }
+
+a.pic:hover {
+	border: solid;
+}
