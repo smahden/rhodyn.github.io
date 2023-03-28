@@ -1,12 +1,3 @@
-h1 {
-  font-family: Helvetica, Verdana, Tahoma, Sans-serif;
-  background-color: #00272B;
-  color: #CCCCCC;
-  font-size: 3em;
-  text-align: center;
-  padding: 60px
-}
-
 h2 {
   font-family: Verdana, Tahoma, Sans-serif;
 }
@@ -14,6 +5,18 @@ h2 {
 h3 {
   text-align: center;
   font-size: 24px;
+}
+
+.header {
+	background-color: #565656;
+	width: 100%;
+	height: 300px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 30px;
+	font-family: Georgia, serif;
+	color: #FFFFFF
 }
 
 .center {
@@ -34,7 +37,48 @@ a:link {
 
 a.home:hover, a.home:active {
 	border: solid;
-	background: black;
+	font-weight: bold;
+}
+
+.centered img {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: Helvetica, Verdana, Tahoma, Sans-serif;
+  color: #CCCCCC;
+  font-size: 3em;
+}
+
+.design {
+  background-color: #00272B;	
+  text-align: center;
+  padding: 20px
+}
+
+.button {
+  background-color: #78C3E3;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  margin-right: 20px;
+  border-radius: 12px;
+}
+
+.style {
+	color: black;
+	font-size: 1em;
+	font-style: Verdana, Sans-serif;
 	text-decoration: none;
-	color: white;
+}
+
+.centered img {
+  width: 200px;
+  border-radius: 50%;
 }
