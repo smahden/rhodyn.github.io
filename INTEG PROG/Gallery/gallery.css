@@ -54,7 +54,7 @@ img {
 
 .nav {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto;
 }
 
 ul.nav {
