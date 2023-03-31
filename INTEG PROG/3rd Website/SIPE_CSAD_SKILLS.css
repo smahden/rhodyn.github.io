@@ -16,6 +16,16 @@ h2 {
 	background-color: #99D5C9;
 }
 
+.border {
+	border: none;
+	display: inline-block;
+	margin: 4px 2px;
+	background: #99D5C9;
+	padding: 20px;
+	border-radius: 12px;
+	line-height: 1.4;
+}
+
 a:link {
 	text-decoration: none;
 }
@@ -33,7 +43,7 @@ a.home:hover, a.home:active {
 }
 
 .button {
-  background-color: #78C3E3;
+  background-color: #83a1cd;
   border: none;
   padding: 20px;
   text-align: center;

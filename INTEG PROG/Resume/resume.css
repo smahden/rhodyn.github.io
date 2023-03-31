@@ -21,6 +21,7 @@ h3 {
 
 .center {
   text-align: center;
+  font-size: 17px;
 }
 
 ul {
@@ -33,6 +34,14 @@ li {
 
 a:link {
 	text-decoration: none;
+}
+
+
+a.top:hover, a.top:active {
+	background: black;
+	text-align: center;
+	text-decoration: none;
+	color: white;
 }
 
 a.home:hover, a.home:active {
@@ -61,7 +70,7 @@ h1 {
 }
 
 .button {
-  background-color: #78C3E3;
+  background-color: #83a1cd;
   border: none;
   padding: 20px;
   text-align: center;

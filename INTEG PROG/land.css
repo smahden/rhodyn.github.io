@@ -14,7 +14,7 @@ h1 {
 }
 
 .button {
-  background-color: #09AEAE;
+  background-color: #83a1cd;
   border: none;
   padding: 20px;
   text-align: center;
@@ -44,6 +44,12 @@ h1 {
   background-color: red;
   color: white;
   text-align: center;
+}
+
+.size {
+	display: inline-block;
+	width: 1045px;
+	height: 398.5px;
 }
 
 body {
@@ -122,7 +128,7 @@ p, h2 {
 
 .nav {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto;
 }
 
 ul.nav {
@@ -157,6 +163,7 @@ ul.nav a:hover, ul.nav a:active {
 
 a:hover {
 	background-color: #85C7DE;
+	color: white;
 }
 
 .footer {

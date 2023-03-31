@@ -1,7 +1,8 @@
 h1 {
+	color: #464946;
 	text-align: center;
+	font-family: Georgia, serif;
 }
-
 a:link {
 	text-decoration: none;
 }
@@ -18,12 +19,23 @@ a.home:hover, a.home:active {
 	font-weight: bold;
 }
 
-a.pic:hover {
-	border: solid;
+img:hover {
+	opacity: 0.8;
+}
+
+img {
+  background-color: #333;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 10px;
+  margin-right: 20px;
 }
 
 .button {
-  background-color: #09AEAE;
+  background-color: #83a1cd;
   border: none;
   padding: 20px;
   text-align: center;
@@ -42,7 +54,7 @@ a.pic:hover {
 
 .nav {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto auto auto;
 }
 
 ul.nav {
