@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Upload </title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="upload.css">
+	<div>
+		<h1> Share Your Meme to the World </h1>
+	</div>
+	<table>
+		<form method="post" action="greetings.html">
+		<tbody>
+		<tr>
+		<td><label for="username"> Username </label></td>
+		<td><input type="text" name="username" id="username" size="50" maxlength="20" required></td>
+		</tr>
+		<tr>
+		<td><label for="password"> Password </label></td>
+		<td><input type="password" name="password" id="password" size="50" minlength="8" required></td>
+		</tr>
+		<tr>
+		<td><label for="caption"> Caption </label></td>
+		<td><textarea rows="15" cols="52"></textarea></td>
+		</tr>
+		<tr>
+		<td><label for="image"> Select Image </label></td>
+		<td><input type="file" id="image" name="image" accept="image/*"></td>
+		</tr>
+		</tbody>
+		
+		<tfoot>
+		<tr>
+		<th colspan="2"><input type="submit" id="btn1" value="Post"></th>
+		</tr>
+		</tfoot>
+		</form>
+	</table>
+</body>
+</html>

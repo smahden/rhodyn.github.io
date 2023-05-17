@@ -1,0 +1,50 @@
+body {
+	font-family: Tahoma;
+	font-size: 1.125em;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 10px auto;
+}
+
+td {
+	border-collapse: collapse;
+	padding: 15px;
+}
+
+input[type=text], input[type=password]  {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #3772FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Verdana;
+  font-size: 1.125em;
+}
+
+input[type=submit]:hover {
+  background-color: #379683;
+}
+
+textarea {
+  padding: 10px;
+  resize: none;
+}
+
+tbody {
+	border-top: 1px solid #b4dfe5;
+	border-bottom: 1px solid #b4dfe5;
+}

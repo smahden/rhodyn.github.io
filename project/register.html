@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Register </title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<div>
+		<h1> Signup </h1>
+	</div>
+	<table>
+		<form method="post" action="greetings.html">
+		<tbody>
+		<tr>
+		<td><label for="username"> Username </label></td>
+		<td><input type="text" name="username" id="username" size="50" maxlength="20" required></td>
+		</tr>
+		<tr>
+		<td><label for="email"> Email </label></td>
+		<td><input type="email" name="email" id="email" size="50" required></td>
+		</tr>
+		<tr>
+		<td><label for="password"> Password </label></td>
+		<td><input type="password" name="password" id="password" placeholder="Your password must be at least 8 characters" size="50" minlength="8" required></td>
+		</tr>
+		<tr>
+		<td><label for="tos"></label></td>
+		<td><input type="checkbox" id="tos" name="tos" value="accept">
+		<label class="tos" for="tos"> I accept the Terms of Services and Privacy Policy </label> <br>
+		</tbody>
+		
+		<tfoot>
+		<tr>
+		<th colspan="2"><input type="submit" id="btn1" value="Submit"></th>
+		</tr>
+		</tfoot>
+		</form>
+	</table>
+</body>
+</html>
