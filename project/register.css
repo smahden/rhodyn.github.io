@@ -1,8 +1,6 @@
 body {
 	font-family: Tahoma;
 	font-size: 1.125em;
-	background-color: #1D2D44;
-	color: white;
 }
 
 table {
@@ -18,6 +16,10 @@ td {
 tbody {
 	border-top: 1px solid #b4dfe5;
 	border-bottom: 1px solid #b4dfe5;
+}
+
+.container {
+	margin: 20px;
 }
 
 input[type=text], input[type=email], input[type=password]  {
