@@ -1,0 +1,235 @@
+body {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    background-image: url(images/black.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #69aac0, white);
+    color: #000000;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#scroll-top-btn:hover {
+    cursor: pointer;
+    background-color: #555;
+}
+
+#go-back-btn {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #69aac0, white);
+    color: #000000;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#go-back-btn:hover {
+    cursor: pointer;
+    background-color: #555;
+}
+
+#scroll-top-btn:target {
+    opacity: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-image: url(images/head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    padding: 10px;
+}
+
+.logo {
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 200px;
+    margin-top: 40px;
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+    z-index: 9999;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 9999;
+}
+
+.navigation .nav-link {
+    margin-right: 10px;
+}
+
+.navbar,
+.navbar .nav-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    background-color: #6e717552;
+}
+
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        background-color: #36383b52 !important;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        color: white !important;
+    }
+}
+
+.image-grid {
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-grid {
+    width: 95%;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.image-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image-grid img {
+    width: 260px;
+    height: auto;
+    border: 5px solid black;
+    border-image: linear-gradient(45deg, #ff0000, #00ff00, #0000ff) 1;
+    border-image-slice: 1;
+    transition: transform 0.3s ease;
+}
+
+.image-grid:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-grid:hover .overlay {
+    opacity: 1;
+}
+
+.open-option {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay:hover .open-option {
+    opacity: 1;
+}
+
+
+
+@media (max-width: 767px) {
+    .image-grid {
+        margin-bottom: 20px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .image-grid img:hover {
+        transform: scale(1.1);
+    }
+
+    .container-grid {
+        width: 95%;
+        padding: 30px;
+        margin: 20px auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.title {
+    padding-top: 40px;
+    margin-bottom: -20px;
+}

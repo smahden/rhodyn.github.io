@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  background-image: url(images/black.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #69aac0, white);
+  color: #000000;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#scroll-top-btn:hover {
+  cursor: pointer;
+  background-color: #555;
+}
+
+#go-back-btn {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #69aac0, white);
+  color: #000000;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#go-back-btn:hover {
+  cursor: pointer;
+  background-color: #555;
+}
+
+.header {
+  background-image: url(images/head.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  padding: 10px;
+}
+
+.logo {
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 200px;
+  margin-top: 40px;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  z-index: 9999;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  z-index: 9999;
+}
+
+.navigation .nav-link {
+  margin-right: 10px;
+}
+
+.navbar,
+.navbar .nav-link {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: #6e717552;
+}
+
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #36383b52 !important;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: white !important;
+  }
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+main {
+
+  background-color: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+
+}
+
+.team-container {
+  transition: transform 0.3s ease;
+}
+
+.team-container:hover {
+  transform: scale(1.1);
+}
